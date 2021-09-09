@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Parisienne&family=Playball&family=Sacramento&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <title>Zatella</title>
+  </head>
+  <body>
+    <!--Barra de Nav-->
+    <section class="sticky-nav">
+      <nav 
+        class="navbar navbar-expand-lg navbar-dark bg-dark"
+        style="background-color: #e3f2fd"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fas fa-hat-wizard"></i>Zatella</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#TRABAJOS RECIENTES ">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sobre nosotros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#Tecnologias">Tecnologias que empleamos</a></li>
+                  <li><a class="dropdown-item" href="#Preguntas Frecuentes">Preguntas Frecuentes</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#Consulta ahora mismo">Contacto</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary rounded-pill p-2"> <a class="text-decoration-none text-white" href="#Solicitar-presupuesto">Solicitar presupuesto</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>    
+    
+    <!--Banner-->
+    <header id="Inicio">
+      <div class="py-5 bg-image-full caja-imagen img-fluid">
+          <div class="text-center my-5">
+              <div class="color-fondo text-white">
+                  <h1 class=" fs-3 fw-bolder">Bienvenidos a Zatella</h1>
+                  <p class=" mb-0">"Nos Diferenciamos te diferenciamos"</p>
+              </div>
+          </div>
+      </header>
+    </header>
+
+      <!--Servicios-->
+    <section id="servicios">
+        <h2 class="p-3 mb-2 text-dark text-center"><b>SERVICIOS</b> </h2>
+       <div class="container"> 
+         <div class="row">
+           <div class="col-md-3 my-2">
+            <img class="imagen-servicio" src="./img/browser.png" alt="">
+            <div class="text-center caja-servicio"><h3>Desarrollo a medida</h3><p class="text-center">
+              Desarrollamos sistemas 100% personalizados, teniendo como
+              prioridad sus objetivos
+            </p></div>
+           </div>
+           <div class="col-md-3 my-2">
+            <img class="imagen-servicio" src="./img/browser-1.png" alt="">
+            <div class="text-center caja-servicio"><h3>Sistemas WEB</h3><p class="text-center">
+              Especialistas en programación de plataformas y aplicaciones web
+              autoadministrables, estables y escalables
+            </p></div>
+           </div>
+           <div class="col-md-3 my-2">
+            <img class="imagen-servicio" src="./img/group.png" alt="">
+            <div class="text-center caja-servicio"><h3>IT Outsourcing</h3><p class="text-center">
+              Equipos de analistas, diseñadores y programadores On-Site /
+              Off-Site a disposición de su empresa
+            </p></div>
+           </div>
+           <div class="col-md-3 my-2">
+            <img class="imagen-servicio" src="./img/smartphone.png" alt="">
+            <div class="text-center caja-servicio"><h3>Mobile APPs</h3> <p class="text-center">
+              Diseño, Programación y Publicación.
+            </p></div>
+           </div>
+         </div>
+         
+    <!--Mensaje #1 al usuario-->
+    <section class="container mensaje-color-fondo">
+      <div class=" p-3 mb-2 text-dark text-center">
+        <div>
+            <h5> TE BRINDAMOS UN SERVICIO DESTACADO</h5>
+        </div>
+        <h3 >MAXIMA ATENCION AL DETALLE</h3>
+        <p>Para lograr el famoso efecto «wow» de nuestros clientes en internet, trabajamos el diseño web cuidando los detalles al máximo.  Seleccionamos cuidadosamente los elementos, los colores, la distribución, la tipografía. Cada detalle cuenta.  La luz de las fotos, contrastes, llamados a la acción… consideramos cada aspecto del diseño.</p>
+    </div>
+    </section>
+    <hr>
+        <!--titulo y publicidad en portfolio-->
+          <section>
+            <div class="text-center p-4 mt-3 mb-1">
+              <h3 id="trabajos"> <b>Tu eliges el diseño </b></h3>
+              <P id="TRABAJOS RECIENTES">CONOCÉ CÓMO TRABAJAMOS</P></div>
+            <div class="container imagen-diseño mb-3">
+              <div class="frase-imagen">"Sitios profesionales y de diseño elegante"</div>
+            </div>
+          </section>
+        <!--Porfolio-->
+        <section class="container mb-4">
+        <div class="row">
+          <!--portfolio item 1-->
+          <div class="col-md-4 col-sm-6 mt-4"> 
+            <div class="content"> 
+                <div class="content-overlay portfolio-item"></div>
+                  <img class="img-fluid" src="./img/portfolio-san-ignacio.jpg"  alt="">
+                  <div class="content-details fadeIn-bottom">
+                    <div class="content-title">            
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#ColegioModal">
+                      <i class="fas fa-plus icons-modal"></i></button></div>
+                </div>
+                  <div class="portfolio-caption text-muted">Colegio San Ignacio</div>
+              </div>
+          </div>
+
+            <!--portfolio item 2-->
+            <div class="col-md-4 col-sm-6 mt-4"> 
+              <div class="content"> 
+                  <div class="content-overlay portfolio-item"></div>
+                    <img class="img-fluid" src="./img/portfolio-tambotrading.jpg"  alt="">
+                    <div class="content-details fadeIn-bottom">
+                      <div class="content-title">            
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#TamboModal">
+                        <i class="fas fa-plus icons-modal"></i></button></div>
+                  </div>
+                    <div class="portfolio-caption text-muted">Tambo Trading LLC</div>
+                </div>
+            </div>
+
+          <!--portfolio item 3-->
+          <div class="col-md-4 col-sm-6 mt-4"> 
+            <div class="content"> 
+                <div class="content-overlay portfolio-item"></div>
+                  <img class="img-fluid" src="./img/laitaliana-portfolio2.jpg"  alt="">
+                  <div class="content-details fadeIn-bottom">
+                    <div class="content-title">            
+                      <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#ItalianaModal">
+                      <i class="fas fa-plus icons-modal"></i></button></div>
+                </div>
+                  <div class="portfolio-caption text-muted">La Italiana</div>
+              </div>
+          </div>
+      <br>
+
+      <!--portfolio item 4-->
+      <div class="col-md-4 col-sm-6 mt-3">
+        <div class="content"> 
+            <div class="content-overlay portfolio-item"></div>
+              <img class="img-fluid" src="./img/Porfolio-bioelectrica-1.jpg"  alt="">
+              <div class="content-details fadeIn-bottom">
+                <div class="content-title">            
+                  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#BioelectricaModal">
+                  <i class="fas fa-plus icons-modal"></i></button></div>
+            </div>
+              <div class="portfolio-caption text-muted">Bioelectrica</div>
+          </div>
+      </div>
+
+      <!--portfolio item 5-->
+      <div class="col-md-4 col-sm-6 mt-3"> 
+        <div class="content"> 
+            <div class="content-overlay portfolio-item"></div>
+              <img class="img-fluid" src="./img/porfolio-el-norte.jpg"  alt="">
+              <div class="content-details fadeIn-bottom">
+                <div class="content-title">            
+                  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#NorteModal">
+                  <i class="fas fa-plus icons-modal"></i></button></div>
+            </div>
+              <div class="portfolio-caption text-muted">El Norte Seguros</div>
+          </div>
+      </div>
+
+      <!--portfolio item 6-->
+      <div class="col-md-4 col-sm-6 mt-3"> 
+        <div class="content"> 
+            <div class="content-overlay portfolio-item"></div>
+              <img class="img-fluid" src="./img/porfolio-riobeef.jpg"  alt="">
+              <div class="content-details fadeIn-bottom">
+                <div class="content-title">            
+                  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#RioModal">
+                  <i class="fas fa-plus icons-modal"></i></button></div>
+            </div>
+              <div class="portfolio-caption text-muted">Riobeef</div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+          <div class="container">
+            <div class="row mt- mb-4">
+
+              <!--portfolio item 7-->
+              <div class="col-md-4 col-sm-6 mt-3">
+                <div class="content"> 
+                    <div class="content-overlay portfolio-item"></div>
+                      <img class="img-fluid" src="./img/portfolio-delver.jpg"  alt="">
+                      <div class="content-details fadeIn-bottom">
+                        <div class="content-title">            
+                          <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#DelverModal">
+                          <i class="fas fa-plus icons-modal"></i></button></div>
+                    </div>
+                      <div class="portfolio-caption text-muted"> Delver</div>
+                  </div>
+              </div>
+
+              <!--portfolio item 8-->
+              <div class="col-md-4 col-sm-6 mt-3"> 
+                <div class="content"> 
+                    <div class="content-overlay portfolio-item"></div>
+                      <img class="img-fluid" src="./img/portfolio-enei.jpg"  alt="">
+                      <div class="content-details fadeIn-bottom">
+                        <div class="content-title">            
+                          <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#EstudioModal">
+                          <i class="fas fa-plus icons-modal"></i></button></div>
+                    </div>
+                      <div class="portfolio-caption text-muted">Estudio Juridico P&M</div>
+                  </div>
+              </div>
+
+              <!--portfolio item 9-->
+              <div class="col-md-4 col-sm-6 mt-3">
+                <div class="content"> 
+                    <div class="content-overlay portfolio-item"></div>
+                      <img class="img-fluid" src="./img/portfolio-warket.jpg"  alt="">
+                      <div class="content-details fadeIn-bottom">
+                        <div class="content-title">            
+                          <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="modal" data-bs-target="#WarketModal">
+                          <i class="fas fa-plus icons-modal"></i></button></div>
+                    </div>
+                      <div class="portfolio-caption text-muted">Warket</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <hr>
+      
+        <!--mensaje #2 al usuario-->
+        <section class="container">
+          <div>
+            <div class="text-center mensaje-color-fondo">
+              <h3 >APROVECHAMOS AL MAXIMO EL POTENCIAL ONLINE DE TU EMPRESA</h3>
+              <h4>GENERAMOS ESTRATEGIAS EXITOSAS</h4>
+            </div>
+            <div class="row">
+              <img class="col-lg-6 col-sm-12" src="./img/ok.jpg" alt="">
+              <div class="col-lg-6 col-sm-12"">
+                <h2>Diseño profesional de paginas web creativas, novedades y efectivas</h2>
+                <p> Nos especializamos en el desarrollo, implementacionn y optimizacion de paginas web. Proveemos soluciones un enfoque estrategico de marketing que permite lograr paginas web que obtienen resultados concretos.</p>
+                <p> <b> <a href="#Consulta ahora mismo" class="text-decoration-none text-dark"> Envianos tu consulta</b></a> y te llamaremos a la brevedad para que nos cuentes sobre tu empresa o proyecto y te asesoramos sin compromiso sobre las diferntes alteranativas web.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+<hr>
+    <!--carousel-->
+    <section class="container">
+      <div class="p-3 mb-4 mt-1  text-dark text-center" id="Tecnologias"> 
+          <h3>Tecnologias</h3>    
+        </div>
+        <div class="text-center">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner mb-4">
+                  <div class="carousel-item active imagen-carousel">
+                    <img src="./img/iconos carousel/logo-ajax-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/HTML5_Logo_256-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/css-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/javascript-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/php-150x150.png"  alt="...">
+                  </div>
+                  <div class="carousel-item imagen-carouse">
+                    <img src="./img/iconos carousel/mysql-150x150.png" alt="...">
+                    <img src="./img/iconos carousel/postgres-150x150.png" alt="...">
+                    <img src="./img/iconos carousel/112725_development_512x512-150x150.png" alt="...">
+                    <img src="./img/iconos carousel/angularjs-logo-150x150.png" alt="...">
+                    <img src="./img/iconos carousel/ionic-logo-150x150.png" alt="...">
+                  </div>
+                  <div class="carousel-item imagen-carouse">
+                    <img src="./img/iconos carousel/logo-sass-less-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/logo-5-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/mongodb-logo-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/app_launch_apple-150x150.png"  alt="...">
+                    <img src="./img/iconos carousel/bootstrap-logo-150x150.png"  alt="...">
+                  </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+        </div>
+    </section>
+<hr>
+<!--timeline-->
+<section>
+    <div class="container">
+      <h4 class="text-dark">Sobre Nosotros</h4>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="main-timeline">
+                  <a href="#" class="timeline">
+                      <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                      <div class="timeline-content">
+                          <h3 class="title">Nuestro Origen</h3>
+                          <p class="description">
+                            <b> Zatella</b> Fue concebida desde su origen como una compañia donde la calidad es uno de los pilares de nuestro trabajo. Como consecuencia de esto apuntamos a que nuestros desarrollos se encuentren en los niveles de calidad mas alto del mercado.</p>
+                      </div>
+                  </a>
+                  <a href="#" class="timeline">
+                      <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                      <div class="timeline-content">
+                          <h3 class="title">Vision</h3>
+                          <p class="description">
+                            Nuestra vision de calidad transmite a nuestros clientes la seguridad que necesitan al confiarnos sus proyectos. Promovemos la capacitacion permanentemente de nuestro equipo de especialistas y conformamos grupos de trabajos dinamicos que aseguran el control de calidad en las distintas etapas.
+                          </p>
+                      </div>
+                  </a>
+                  <a href="#" class="timeline">
+                      <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                      <div class="timeline-content">
+                          <h3 class="title">Compromiso</h3>
+                          <p class="description">
+                            Sabemos que el exito de nuestros clientes es tambien el nuestro, por eso nos involucramos a fondo con cada proyecto que nos confian. Usted podra aprovechar amplia experiencia para mejorar o potenciar su idea inicial. 
+                          </p>
+                      </div>
+                  </a>
+                  <a href="#" class="timeline">
+                      <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                      <div class="timeline-content">
+                          <h3 class="title">Socios tecnologicos</h3>
+                          <p class="description">
+                            En <b>Zatella</b> preferimos considerarnos "Socios Tecnologias" que ademas del diseño y la programacion,brindamos asesoramiento estrategico valioso y especial para cada proyecto. Cada Proyecto es unico en su categori. <b>"Marcamos la diferencia."</b> 
+                          </p>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<hr>
+
+    <!--acordeon-->
+    <section class="mt-3 mb-4" id="Preguntas Frecuentes">
+        <h2 class="p-3 mt-3 bg-dark  text-white text-center">Preguntas Frecuentes</h2>
+        <div class="accordion accordion-flush container" id="accordionFlushExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>A medida que trabajan en mi nueva web, puedo ver avances?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> Si. Durante la etapa de desarrollo, utiliza un servidor de prueba (te brindaamos  un link especificos) para que puedas ver el <b> diseño web en proceso</b> y las modificaciones generadas en la etapa de revision. 
+              <p>Dado que se trata de un servicio profesionnal de alta calidad, por prolijidad solo utilizaremos el dominio real de tu empresa una vez que la web este lista y chqueada para ser subida.</p> </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <b>¿En qué área geográfica proveen servicios?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> Si bien realizamos trabajos para diferentes partes del mundo, en <b>Zatella</b> nos enfocamos de forma especial a trabajos de diseño en el pais.
+              <p>Tenemos un numero siempre creciente de clientes a lo largo y ancho de Argentina que confian en nuestro servicios desde hace años.</p></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <b>¿Realizan modificaciones sobre sitios web existentes?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> <p> Si. Efectivamente, podemos reralizar modificaciones sobre sitios web ya existentes. Es problema que podamos hacerte algunas sugerencias sobre oportunidades de mejora en aspectos visuales y de marketing digital si fuera necesario.</p> </div>
+            </div>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <b>¿Cuánto tiempo lleva disponer de mi nueva página web</b>
+                </button>
+              </h2>
+              <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Cada proyecto es particular y diferente, pero usualmente la mayoría de los desarrollos web se completan en un plazo no mayor a 30 días desde la confirmación del trabajo, contando con la información requerida.</p></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <b>¿Cuánto cuesta realizar una página web?</b>
+                </button>
+              </h2>
+              <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> <p>Ciertamente, cada proyecto en diseño web es diferente.  Por ello, la cantidad de tiempo de desarrollo asociado varía de proyecto a proyecto y por ende su costo.  Sin embargo, para simplificar el proceso de presupuestación, podés <a href="#Consulta ahora mismo" class="text-decoration-none text-dark"><b>ponerte en contacto</b></a> con nosotros, te haremos algunas preguntas simples que son claves para entender tus requerimientos y te presentaremos la propuesta más conveniente.</p></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <b>Mi nueva página web, ¿funcionará correctamente en celulares smartphone?</b>
+                </button>
+              </h2>
+              <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>En Zatella utilizamos la mas moderna tecnologia responsive ("adaptativa") como una caraccteristica <b>incluida en todos nuestros diseños.</b> Los contenidos de tu web se aajustaran automaaticamente a los tamaños de diferentes dispositivos como celulares y tablets, logrando una optima experiencia del usario en cada caso. Esto constituye una muy importante ventaja competitiva online.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Msj #3 para el usuario-->
+    <section class="container mensaje-color-fondo">
+        <div class=" p-1 mb-2 text-dark text-center">
+        <div>
+            <h5 class="mt-3">Nuestra mision</h5>
+            <br>
+            <p>"En Zatella aprovechamos las Tecnologías de la Información y Comunicación para ayudar a que tu empresa crezca."</p>
+            <P>
+                Desarrollamos y programamos servicios web a medida de las necesidades de cada negocio o sector.
+            </P>
+            <br>
+        </div>
+</section>
+
+    <!--Contacto-->
+    <section class="img-bg" id="Consulta ahora mismo" > 
+        <form class=" container p-5 m-auto " id="Solicitar-presupuesto">
+            <div class=" row p-3 mb-2 text-dark text-center">
+                <h2>Consulta ahora mismo</h2>   
+                <p>Realizanos una consulta o solicitá presupuesto utilizando el siguiente formulario.<b> A la brevedad nos pondremos en contacto.</b></p>    
+            </div> 
+            <div class="row">
+              <div class="mb-3 col-6">
+                  <label for="formGroupExampleInput" class="form-label"> <i class="fas fa-address-book"></i> Nombre</label>
+                  <input type="text" class="form-control" required id="formGroupExampleInput">
+                </div>
+                <div class="mb-3 col-6">
+                  <label for="formGroupExampleInput" class="form-label"> <i class="far fa-address-book"></i>Empresa</label>
+                  <input type="text" class="form-control" required id="formGroupExampleInput">
+                </div>
+            </div>
+             <div class="row">
+              <div class="mb-3 col-6">
+              <label for="exampleInputEmail1" class="form-label"> <i class="fas fa-envelope-square"></i> Email</label>
+              <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-dark">No compartiremos tus datos con nadie.</div>
+          </div>
+              <div class="mb-3 col-6">
+                  <label for="formGroupExampleInput" class="form-label"> <i class="fas fa-phone-square-alt"></i> Telefono</label>
+                  <input type="tel" class="form-control" id="formGroupExampleInput">
+              </div>
+            </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Deja tu comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Dejanos tu comentario!</label>
+                </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"> Estoy de acuerdo con los terminos y condiciones </label>
+            </div>
+            <button type="submit" class="btn btn-primary">enviar</button>
+        </form>
+    </div>
+    </section>
+
+    <!-- Suscribite-->
+    <section class="imagen-newsletter my-3">
+        <div class="text-center text-white mt-3">
+          <div class="color-texto-fondo container">
+          <h3> <b> SUSCRIBITE A NUESTRO NEWSLETTER </b></h3>
+          <p> Periodicamente compartiremos ideas y consejos que puedan ayudar al crecimiento de tu empresa en internet.</p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <form class="row g-3">
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label"></label>
+                  <input type="email" class="form-control" placeholder="Email" required id="inputEmail4">
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                </div>
+              </form>
+    </section>
+    
+    <!-- Modal Colegio San Ignacio-->
+<div class="modal fade" id="ColegioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Colegio San Ignacio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img class="w-100 h-100" src="./img/portfolio-san-ignacio.jpg" alt="">
+        <hr>
+        <b>El Colegio San Ignacio</b>  es una institución educativa de la ciudad de Rio Cuarto que ofrece una educación <b>bilingüe</b>, español-inglés, a niños desde los 2 años. Nuestro proyecto se centra en el <b>Programa del Bachillerato Internacional
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Tambo -->
+<div class="modal fade" id="TamboModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">
+          Tambo Trading LLC
+          </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>IN THE INDUSTRY FOR 70 YEARS</h4>
+        <h3>Quality Seal</h3>
+        <img class="w-100 h-100" src="./img/portfolio-tambotrading.jpg" alt="">
+        <hr>
+        <p>Our products’ added value comes from our ability to offer a better quality at a competitive price thanks to the control we exercise over the entire supply chain. This, together with our 70 years of experience in the field, is what sets us apart from the competition.</p> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Italiana -->
+<div class="modal fade" id="ItalianaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BIENVENIDOS A LA ITALIANA
+          </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>ACOMPAÑAR, NUTRIR, SABOREAR, COMPARTIR…</h4>
+        <img class="w-100 h-100" src="./img/laitaliana-portfolio2.jpg" alt="">
+        <hr>
+        <p>El centro de la vida es la familia. Y el centro de la familia es la mesa. Por eso,<b> La Italiana</b> forma parte de tu vida y tu familia cuando todos se sientan a la mesa.
+        <b>¡Cuántas cosas tenemos para celebrar!</b></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Bioelectrica -->
+<div class="modal fade" id="BioelectricaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Somos Bioelectrica</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="./img/Porfolio-bioelectrica-1.jpg" alt="">
+        <hr>
+        Líderes en desarrollar proyectos de generación de energía eléctrica a partir de fuentes renovables, mediante procesos de digestión anaeróbicos.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Norte Seguros -->
+<div class="modal fade" id="NorteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Compañía de Seguros El Norte S.A.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100 mb-2" src="./img/porfolio-el-norte.jpg" alt="">
+        <hr>
+        <p>Los valores que forman parte de nuestra filosofía empresaria se traducen en una gestión comprometida, confiable y de alta calidad para nuestros clientes.</p>  
+        <p> Muestra de ello es que desde el año 2010, la Compañía ha alcanzado la destacada calificación AA+, otorgada por una importante calificadora de riesgos en base al riguroso análisis trimestral de nuestros principales indicadores económico-financieros.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal RioBeef-->
+<div class="modal fade" id="RioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Argentine beef for export</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="./img/porfolio-riobeef.jpg" alt="">
+        <hr>
+        <p> <b>Rio Beef</b>  is an alliance formed by livestock producers, meat marketers from the Pampas region, and bio4 argentina, a renewable energy company (it produces corn ethanol and electric power from biogas).</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Delver-->
+<div class="modal fade" id="DelverModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Laboratorios Electronicos Delver S.A.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="./img/portfolio-delver.jpg" alt="">
+        <hr>
+        <p>Experiencia con proyección al futuro...</p>
+        <p>Delver Laboratorios Electrónicos mantiene este espíritu  fundacional, imprimiéndole el sello inconfundible de sus pioneros, a toda su producción posterior.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Estudio juridico-->
+<div class="modal fade" id="EstudioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Estudio Jurídico P&M</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="./img/foto-home.jpg" alt="">
+        <hr>
+        <p>
+          En el estudio P & M nos caracterizamos por tener una gran experiencia en el servicio de asesoramiento de calidad.
+        </p>
+        <p>
+          Ud. podrá encontrar el respaldo que necesita tanto judicial como extrajudicial desarrollando nuestra actividad en la Capital  y la Provincia de Tucuman.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Warket-->
+<div class="modal fade" id="WarketModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Warket</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100 h-100" src="./img/portfolio-warket.jpg" alt="">
+        <hr>
+        <p>"Vos siempre pensando en ideas locas..."</p>
+        <p>Fue lo primero que me dijo ella ni bien le conté que tenía una nueva idea de negocio.</p>
+        <p>Warket es work + market, estamos aquí para ayudarte a lograr tus objetivos y hacerte la vida más fácil</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Footer-->
+        <footer class="container-fluid footer text-dark">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-4 text-center text-md-start">
+                <a href="http://www.facebook.com/"><i class="fab fa-facebook-square social-icon"></i></a>
+                <a href="https://www.google.com.ar/"><i class="fab fa-google-plus-square social-icon"></i></i></a>
+                <a href="https://twitter.com/home"><i class="fab fa-twitter-square social-icon"></i></a>
+                <a href="https://ar.linkedin.com/"><i class="fab fa-linkedin social-icon"></i></a>
+              </div>
+              <div class="col-12 col-md-4 mt-3 text-center">
+                <img src="./img/logo_transparent.png" class="logo-footer" alt="">
+                <address >
+                  <div><p> <i class="far fa-copyright"></i> 2021 • Zatella • Todos los Derechos Reservados</p></div>
+                  <address >
+                  Zatella-Arg@correo.com
+                </address>
+              </div>
+              <div class="col-12 col-md-4 text-center text-md-end">
+                <ul class="nav flex-column">
+                  <li> <a class="text-decoration-none" href="#Inicio">Inicio</a> </li>
+                  <li> <a class="text-decoration-none" href="#quienes-somos">Quienes Somos</a> </li>
+                  <li> <a class="text-decoration-none" href="#trabajos">Trabajos</a></li>
+                  <li> <a class="text-decoration-none" href="">Terminos y Condiciones</a> </li>
+                </ul>
+              </div>
+            
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
